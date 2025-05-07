@@ -24,7 +24,7 @@ const cart = {
   addToCart(productId) {
     let matchingItem;
   
-    cart.forEach((cartItem) => {
+    this.cartItems.forEach((cartItem) => {
       if (productId === cartItem.productId) {
         matchingItem = cartItem;
       }
@@ -33,7 +33,7 @@ const cart = {
     if (matchingItem) {
       matchingItem.quantity += 1;
     } else {
-      cart.push({
+      this.cartItems.push({
         productId: productId,
         quantity: 1,
         deliveryOptionId: '1'
