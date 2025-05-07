@@ -15,6 +15,10 @@ const cart = {
         deliveryOptionId: '2'
       }];
     }
+  },
+
+  function saveToStorage() {
+    localStorage.setItem('cart', JSON.stringify(cart));
   }
 
 
@@ -25,9 +29,7 @@ loadFromStorage();
 
 
 
-function saveToStorage() {
-  localStorage.setItem('cart', JSON.stringify(cart));
-}
+
 
 export function addToCart(productId) {
   let matchingItem;
