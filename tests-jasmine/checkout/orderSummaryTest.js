@@ -64,6 +64,6 @@ describe('test suite: renderOrderSummary', () => {
     ).toEqual(1);
      expect(
       document.querySelector(`.js-cart-item-container-${productId1}`)
-     )
+     ).toEqual(null);
   });
 });
