@@ -1,5 +1,5 @@
 const cart = {
-  cart: undefined,
+  cartItems: undefined,
 };
 
 loadFromStorage();
