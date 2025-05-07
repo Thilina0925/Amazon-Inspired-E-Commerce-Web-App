@@ -52,7 +52,7 @@ const cart = {
       }
     });
   
-    cart = newCart;
+    this.cartItems = newCart;
   
     saveToStorage();
   }
