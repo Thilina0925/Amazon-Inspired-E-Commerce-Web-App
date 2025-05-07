@@ -74,7 +74,7 @@ const cart = {
 
 cart.loadFromStorage();
 
-const cart = {
+const businessCart = {
   cartItems: undefined,
 
   loadFromStorage() {
