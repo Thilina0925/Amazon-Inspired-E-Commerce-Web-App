@@ -12,7 +12,7 @@ describe('test suite: addToCart', () => {
        spyOn(localStorage, 'setItem');
 
        spyOn(localStorage, 'getItem').and.callFake(() => {
-         return JSON.stringify([]);
+         return JSON.stringify([{}]);
        });
        loadFromStorage();
 
