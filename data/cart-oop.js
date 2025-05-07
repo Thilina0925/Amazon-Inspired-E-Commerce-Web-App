@@ -1,3 +1,7 @@
+function Cart() {
+  
+}
+
 const cart = {
   cartItems: undefined,
 
