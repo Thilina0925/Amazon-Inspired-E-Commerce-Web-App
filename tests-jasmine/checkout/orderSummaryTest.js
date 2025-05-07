@@ -15,7 +15,7 @@ describe('test suite: renderOrderSummary', () => {
               quantity: 2,
               deliveryOptionId: '1'
             }, {
-              productId: ,
+              productId: productId2,
               quantity: 1,
               deliveryOptionId: '2'
             }]);
