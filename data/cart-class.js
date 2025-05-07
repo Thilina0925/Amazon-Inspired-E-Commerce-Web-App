@@ -73,7 +73,7 @@ class Cart {
   }
 }
 
-const cart = Cart('cart-oop');
+const cart = new Cart();
 const businessCart = Cart('cart-business');
 
 cart.loadFromStorage();
