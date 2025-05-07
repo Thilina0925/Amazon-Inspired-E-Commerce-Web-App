@@ -46,7 +46,7 @@ const cart = {
   removeFromCart(productId) {
     const newCart = [];
   
-    cart.forEach((cartItem) => {
+    this.cartItems.forEach((cartItem) => {
       if (cartItem.productId !== productId) {
         newCart.push(cartItem);
       }
