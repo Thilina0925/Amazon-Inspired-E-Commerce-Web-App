@@ -74,7 +74,7 @@ class Cart {
 }
 
 const cart = new Cart();
-const businessCart = Cart('cart-business');
+const businessCart = new Cart();
 
 cart.loadFromStorage();
 
