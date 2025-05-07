@@ -77,6 +77,7 @@ function Cart() {
 }
 
 const cart = Cart();
+const businessCart = Cart();
 
 cart.loadFromStorage();
 
