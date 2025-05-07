@@ -56,5 +56,7 @@ describe('test suite: renderOrderSummary', () => {
      loadFromStorage();
 
      renderOrderSummary();
+
+     document.querySelector(`.js-delete-link-${productId1}`)
   });
 });
