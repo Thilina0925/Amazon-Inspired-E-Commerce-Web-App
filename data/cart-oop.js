@@ -54,7 +54,7 @@ const cart = {
   
     this.cartItems = newCart;
   
-    saveToStorage();
+    this.saveToStorage();
   }
 
 
