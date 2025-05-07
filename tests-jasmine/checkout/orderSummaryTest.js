@@ -25,5 +25,6 @@ describe('test suite: renderOrderSummary', () => {
           expect(
             document.querySelectorAll('.js-cart-item-container').length
           ).toEqual(2);
+          document.querySelector(``);
   });
 });
