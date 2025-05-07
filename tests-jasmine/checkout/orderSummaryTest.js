@@ -38,6 +38,7 @@ describe('test suite: renderOrderSummary', () => {
   it('removes a product', () => {
     document.querySelector('.js-test-container').innerHTML = `
     <div class="js-order-summary"></div>
+    <div></div>
  `;
  
      const productId1 = 'e43638ce-6aa0-4b85-b27f-e1d07eb678c6';
