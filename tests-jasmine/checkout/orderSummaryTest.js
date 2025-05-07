@@ -2,6 +2,9 @@ import {renderOrderSummary} from '../../scripts/checkout/orderSummary.js';
 import {loadFromStorage, cart} from '../../data/cart.js';
 
 describe('test suite: renderOrderSummary', () => {
+  beforeEach(() => {
+    
+  });
   it('displays the cart', () => {
       document.querySelector('.js-test-container').innerHTML = `
          <div class="js-order-summary"></div>
@@ -74,5 +77,7 @@ describe('test suite: renderOrderSummary', () => {
      ).not.toEqual(null);
      expect(cart.length).toEqual(1);
      expect(cart[0].productId).toEqual(productId2);
+
+     document.querySelector('.js-test-container').innerHTML = '';
   });
 });
