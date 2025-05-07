@@ -40,7 +40,7 @@ const cart = {
       });
     }
   
-    saveToStorage();
+    this.saveToStorage();
   }
 
 };
