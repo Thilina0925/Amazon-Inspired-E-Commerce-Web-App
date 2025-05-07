@@ -28,6 +28,6 @@ describe('test suite: renderOrderSummary', () => {
           ).toEqual(2);
           expect(
             document.querySelector(`.js-product-quantity-${productId1}`).innerText
-          ).toContain();
+          ).toContain('Quantity: 2');
   });
 });
