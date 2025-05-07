@@ -2,10 +2,10 @@ const cart = {
   cartItems: undefined,
 
   loadFromStorage() {
-    cart.cartItems = JSON.parse(localStorage.getItem('cart'));
+    this.cartItems = JSON.parse(localStorage.getItem('cart'));
   
-    if (!cart.cartItems) {
-      cart.cartItems = [{
+    if (!this.cartItems) {
+      this.cartItems = [{
         productId: 'e43638ce-6aa0-4b85-b27f-e1d07eb678c6',
         quantity: 2,
         deliveryOptionId: '1'
