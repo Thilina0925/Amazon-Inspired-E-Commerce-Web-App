@@ -27,7 +27,7 @@ describe('test suite: renderOrderSummary', () => {
             document.querySelectorAll('.js-cart-item-container').length
           ).toEqual(2);
           expect(
-            document.querySelector(`.js-product-quantity-${productId1}`)
-          )
+            document.querySelector(`.js-product-quantity-${productId1}`).innerText
+          ).toContain();
   });
 });
