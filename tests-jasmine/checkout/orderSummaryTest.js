@@ -30,5 +30,8 @@ describe('test suite: renderOrderSummary', () => {
           expect(
             document.querySelector(`.js-product-quantity-${productId1}`).innerText
           ).toContain('Quantity: 2');
+          expect(
+            document.querySelector(`.js-product-quantity-${productId1}`).innerText
+          ).toContain('Quantity: 2');
   });
 });
