@@ -10,7 +10,7 @@ describe('test suite: renderOrderSummary', () => {
           const productId1 = 'e43638ce-6aa0-4b85-b27f-e1d07eb678c6'
           spyOn(localStorage, 'getItem').and.callFake(() => {
             return JSON.stringify([{
-              productId: ,
+              productId: productId1,
               quantity: 2,
               deliveryOptionId: '1'
             }, {
