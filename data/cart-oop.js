@@ -18,7 +18,7 @@ const cart = {
   },
 
   saveToStorage() {
-    localStorage.setItem('cart-oop', JSON.stringify(cart));
+    localStorage.setItem('cart-oop', JSON.stringify(this.cartItems));
   }
 
 };
