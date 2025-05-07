@@ -1,6 +1,6 @@
-const cart = {};
-
-export let cart = undefined;
+const cart = {
+  export let cart = undefined;
+};
 
 loadFromStorage();
 
