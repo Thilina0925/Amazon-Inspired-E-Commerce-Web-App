@@ -61,6 +61,6 @@ describe('test suite: renderOrderSummary', () => {
      document.querySelector(`.js-delete-link-${productId1}`).click();
      expect(
       document.querySelectorAll('.js-cart-item-container').length
-    ).toEqual(2);
+    ).toEqual(1);
   });
 });
