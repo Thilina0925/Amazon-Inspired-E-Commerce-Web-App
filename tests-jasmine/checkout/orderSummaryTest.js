@@ -22,6 +22,6 @@ describe('test suite: renderOrderSummary', () => {
 
           renderOrderSummary();
 
-          document.querySelectorAll()
+          document.querySelectorAll('')
   });
 });
