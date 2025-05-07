@@ -78,7 +78,7 @@ const businessCart = {
   cartItems: undefined,
 
   loadFromStorage() {
-    this.cartItems = JSON.parse(localStorage.getItem('cart-oop'));
+    this.cartItems = JSON.parse(localStorage.getItem('cart-business'));
   
     if (!this.cartItems) {
       this.cartItems = [{
