@@ -31,8 +31,8 @@ describe('test suite: renderOrderSummary', () => {
             document.querySelector(`.js-product-quantity-${productId1}`).innerText
           ).toContain('Quantity: 2');
           expect(
-            document.querySelector(`.js-product-quantity-${productId1}`).innerText
-          ).toContain('Quantity: 2');
+            document.querySelector(`.js-product-quantity-${productId2}`).innerText
+          ).toContain('Quantity: 1');
   });
 
   it('removes a product', () => {
