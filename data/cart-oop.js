@@ -72,7 +72,11 @@ function Cart() {
       this.saveToStorage();
     }
   };
+
+  return cart;
 }
+
+const cart = Cart();
 
 cart.loadFromStorage();
 
