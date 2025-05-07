@@ -34,4 +34,6 @@ describe('test suite: renderOrderSummary', () => {
             document.querySelector(`.js-product-quantity-${productId1}`).innerText
           ).toContain('Quantity: 2');
   });
+
+  it();
 });
