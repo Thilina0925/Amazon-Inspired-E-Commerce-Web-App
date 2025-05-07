@@ -34,9 +34,7 @@ describe('test suite: renderOrderSummary', () => {
             document.querySelector(`.js-product-quantity-${productId2}`).innerText
           ).toContain('Quantity: 1');
 
-          document.querySelector('.js-test-container').innerHTML = `
-          <div class = "js-order-summary"></div>
-          `;
+          document.querySelector('.js-test-container').innerHTML = '';
   });
 
   it('removes a product', () => {
