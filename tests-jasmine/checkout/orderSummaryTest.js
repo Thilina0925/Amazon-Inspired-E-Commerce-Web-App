@@ -36,7 +36,7 @@ describe('test suite: renderOrderSummary', () => {
   });
 
   it('removes a product', () => {
-    spyOn();
+    spyOn(localStorage, 'setItem');
 
     document.querySelector('.js-test-container').innerHTML = `
     <div class="js-order-summary"></div>
