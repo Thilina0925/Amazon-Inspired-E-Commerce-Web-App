@@ -35,5 +35,5 @@ describe('test suite: renderOrderSummary', () => {
           ).toContain('Quantity: 2');
   });
 
-  it();
+  it('removes a product');
 });
