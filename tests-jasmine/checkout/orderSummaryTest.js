@@ -21,5 +21,7 @@ describe('test suite: renderOrderSummary', () => {
           loadFromStorage();
 
           renderOrderSummary();
+
+          document.querySelectorAll()
   });
 });
