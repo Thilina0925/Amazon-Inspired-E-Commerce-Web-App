@@ -23,7 +23,7 @@ describe('test suite: renderOrderSummary', () => {
           renderOrderSummary();
 
           expect(
-            document.querySelectorAll('.js-cart-item-container')
+            document.querySelectorAll('.js-cart-item-container').length
           )
   });
 });
