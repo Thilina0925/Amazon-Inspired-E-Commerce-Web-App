@@ -1,3 +1,5 @@
+const cart = {};
+
 export let cart;
 
 loadFromStorage();
