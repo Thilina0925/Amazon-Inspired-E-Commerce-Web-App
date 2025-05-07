@@ -16,13 +16,16 @@ class Cart {
       }];
     }
   }
+
+  saveToStorage() {
+    localStorage.setItem(localStorageKey, JSON.stringify(this.cartItems));
+  }
 }
 
 function Cart(localStorageKey) {
   const cart = {
-    saveToStorage() {
-      localStorage.setItem(localStorageKey, JSON.stringify(this.cartItems));
-    },
+
+  
   
     addToCart(productId) {
       let matchingItem;
