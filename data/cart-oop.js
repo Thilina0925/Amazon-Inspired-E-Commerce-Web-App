@@ -21,7 +21,7 @@ const cart = {
     localStorage.setItem('cart-oop', JSON.stringify(this.cartItems));
   },
 
-  export function addToCart(productId) {
+  addToCart(productId) {
     let matchingItem;
   
     cart.forEach((cartItem) => {
