@@ -6,6 +6,8 @@ describe('test suite: addToCart', () => {
   });
 
   it('adds a new product to the cart', () => {
+       spyOn();
+
        spyOn(localStorage, 'getItem').and.callFake(() => {
          return JSON.stringify([]);
        });
