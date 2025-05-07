@@ -60,7 +60,7 @@ const cart = {
    updateDeliveryOption(productId, deliveryOptionId) {
     let matchingItem;
   
-    cart.forEach((cartItem) => {
+    this.cartItems.forEach((cartItem) => {
       if (productId === cartItem.productId) {
         matchingItem = cartItem;
       }
@@ -68,7 +68,7 @@ const cart = {
   
     matchingItem.deliveryOptionId = deliveryOptionId;
   
-    saveToStorage();
+    this.saveToStorage();
   }
 
 
