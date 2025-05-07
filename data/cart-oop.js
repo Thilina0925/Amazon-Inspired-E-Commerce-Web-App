@@ -17,11 +17,9 @@ const cart = {
     }
   },
 
-  function saveToStorage() {
+  saveToStorage() {
     localStorage.setItem('cart', JSON.stringify(cart));
   }
-
-
 
 };
 
