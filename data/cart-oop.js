@@ -148,7 +148,7 @@ const businessCart = {
   }
 };
 
-cart.loadFromStorage();
+businessCart.loadFromStorage();
 
 
 
