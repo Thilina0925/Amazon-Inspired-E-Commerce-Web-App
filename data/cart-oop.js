@@ -57,7 +57,7 @@ const cart = {
     this.saveToStorage();
   },
 
-  export function updateDeliveryOption(productId, deliveryOptionId) {
+   updateDeliveryOption(productId, deliveryOptionId) {
     let matchingItem;
   
     cart.forEach((cartItem) => {
