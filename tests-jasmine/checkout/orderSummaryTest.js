@@ -1,3 +1,3 @@
 import {renderOrderSummary} from '../../scripts/checkout/orderSummary.js';
 
-describe('');
+describe('test suite: renderOrderSummary', );
