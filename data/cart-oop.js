@@ -70,12 +70,9 @@ const cart = {
   
     this.saveToStorage();
   }
-
-
-
 };
 
-loadFromStorage();
+cart.loadFromStorage();
 
 
 
