@@ -2,7 +2,10 @@ import {addToCart, cart, loadFromStorage} from '../../data/cart.js';
 
 describe('test suite: addToCart', () => {
   it('adds an existing product to the cart', () => {
-
+    spyOn(localStorage, 'getItem').and.callFake(() => {
+      return JSON.stringify([]);
+    });
+    loadFromStorage();
   });
 
   it('adds a new product to the cart', () => {
