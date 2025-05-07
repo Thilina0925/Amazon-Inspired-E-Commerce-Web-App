@@ -43,7 +43,7 @@ const cart = {
     this.saveToStorage();
   },
 
-  export function removeFromCart(productId) {
+  removeFromCart(productId) {
     const newCart = [];
   
     cart.forEach((cartItem) => {
