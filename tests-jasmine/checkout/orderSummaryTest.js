@@ -1,4 +1,5 @@
 import {renderOrderSummary} from '../../scripts/checkout/orderSummary.js';
+import {addToCart, cart, loadFromStorage} from '../../data/cart.js';
 
 describe('test suite: renderOrderSummary', () => {
   it('displays the cart', () => {
