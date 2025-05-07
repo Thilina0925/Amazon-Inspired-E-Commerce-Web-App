@@ -1,5 +1,5 @@
 const cart = {
-  export let cart = undefined;
+  cart = undefined;
 };
 
 loadFromStorage();
