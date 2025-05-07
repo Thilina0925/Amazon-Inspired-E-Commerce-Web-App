@@ -1,5 +1,5 @@
 class Cart {
-  
+  cartItems: undefined,
 }
 
 function Cart(localStorageKey) {
