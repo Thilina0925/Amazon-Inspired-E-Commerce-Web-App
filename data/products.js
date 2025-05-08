@@ -20,6 +20,9 @@ class Product {
 }
 
 const product1 = new Product();
+product1.id = '';
+product1.image = '';
+product1.name
 console.log(product1);
 
 export const products = [
