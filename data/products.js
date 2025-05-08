@@ -18,7 +18,7 @@ class Product {
   rating;
   priceCents;
 
-  constructor() {
+  constructor(productDetails) {
       this.id
   }
 }
