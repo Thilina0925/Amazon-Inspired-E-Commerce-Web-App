@@ -22,6 +22,8 @@ class Product {
       this.id = productDetails.id;
       this.image = productDetails.image;
       this.name = productDetails.name;
+      this.rating = productDetails.rating;
+      this.priceCents = productDetails.priceCents;
   }
 }
 
