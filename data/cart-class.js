@@ -4,7 +4,7 @@ class Cart {
 
   constructor(){
     cart.localStorageKey = 'cart-oop';
-    businessCart.loadFromStorageKey = 'cart-business';
+    businessCart.localStorageKey = 'cart-business';
     
     cart.loadFromStorage();
     
