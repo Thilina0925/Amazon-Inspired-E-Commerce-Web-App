@@ -704,5 +704,5 @@ export const products = [
     ]
   }
 ].map((productDetails) => {
-     new Product();
+     new Product(productDetails);
 });
