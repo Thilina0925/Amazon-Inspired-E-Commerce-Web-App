@@ -25,6 +25,14 @@ class Product {
       this.rating = productDetails.rating;
       this.priceCents = productDetails.priceCents;
   }
+
+  getStarsUrl() {
+
+  }
+
+  getPrice() {
+    
+  }
 }
 
 const product1 = new Product({
