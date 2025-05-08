@@ -3,8 +3,8 @@ class Cart {
   localStorageKey = undefined;
 
   constructor(){
-    cart.localStorageKey = 'cart-oop';
-    cart.loadFromStorage();
+    this.localStorageKey = 'cart-oop';
+    this.loadFromStorage();
   }
 
   loadFromStorage() {
