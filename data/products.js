@@ -19,7 +19,7 @@ class Product {
   priceCents;
 
   constructor() {
-
+      this.id
   }
 }
 
