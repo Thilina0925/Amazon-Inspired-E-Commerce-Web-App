@@ -703,4 +703,4 @@ export const products = [
       "mens"
     ]
   }
-];
+].map();
