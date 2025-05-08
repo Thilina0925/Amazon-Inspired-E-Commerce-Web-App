@@ -19,7 +19,7 @@ class Product {
   priceCents;
 
   constructor(productDetails) {
-      this.id
+      this.id = productDetails.id;
   }
 }
 
