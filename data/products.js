@@ -17,6 +17,10 @@ class Product {
   name;
   rating;
   priceCents;
+
+  constructor() {
+    
+  }
 }
 
 const product1 = new Product();
