@@ -27,11 +27,11 @@ class Product {
   }
 
   getStarsUrl() {
-
+     `images/ratings/rating-${product.rating.stars * 10}.png`
   }
 
   getPrice() {
-    
+
   }
 }
 
