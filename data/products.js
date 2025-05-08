@@ -20,6 +20,7 @@ class Product {
 }
 
 const product1 = new Product();
+console.log(product1);
 
 export const products = [
   {
