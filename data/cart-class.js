@@ -2,7 +2,7 @@ class Cart {
   cartItems = undefined;
   localStorageKey = undefined;
 
-  constructor(){
+  constructor(localStorageKey){
     this.localStorageKey = 'cart-oop';
     this.loadFromStorage();
   }
