@@ -27,7 +27,7 @@ class Product {
   }
 
   getStarsUrl() {
-     `images/ratings/rating-${product.rating.stars * 10}.png`
+    return `images/ratings/rating-${this.product.rating.stars * 10}.png`;
   }
 
   getPrice() {
