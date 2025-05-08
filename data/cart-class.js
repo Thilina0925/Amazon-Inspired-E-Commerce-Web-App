@@ -85,6 +85,7 @@ businessCart.loadFromStorage();
 
 console.log(cart);
 console.log(businessCart);
+businessCart instanceof Cart
 
 
 
