@@ -12,7 +12,11 @@ export function getProduct(productId) {
 
 
 class Product {
-  
+  id;
+  image;
+  name;
+  rating;
+  priceCents;
 }
 
 export const products = [
